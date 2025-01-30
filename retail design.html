@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RETAIL DESIGN</title>
+		<style>
+		/* Container for background image */
+		.container {
+			position: relative;
+			width: 100%;
+			height: 100vh;
+		}
+		
+		/* Pseudo-element to hold background image */
+		.container::before {
+			content: '';
+			position: absolute;
+			top: -42px;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-image: url('images/Retail-store.JPG');
+			background-size: cover;
+			background-repeat: no-repeat;
+			opacity: 0.3; /* Set opacity only for the background image */
+			z-index: -1; /* Make sure the background stays behind the content */
+		}
+
+		/* Content class */
+		.content {
+			position: relative;
+			z-index: 1; /* Make sure the content is above the background */
+			color: white; /* Optional: You can adjust text color to improve contrast */
+		}
+
+		h2 {
+			margin-top: 42px;
+			font-size: 30px;
+			margin-left: 581px;
+			color: orange;
+			font-family: emoji;
+
+		}
+
+		p {
+			margin-left: 500px;
+			font-size: 22px;
+			line-height: -0.5;
+			color: black;
+
+		}
+
+		img {
+			margin-left: 480px;
+			height: 400px;
+			width: 500px;
+		}
+		span{
+		color: black;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="content">
+			<h2>RETAIL  <span>DESIGN</span></h2>
+			<p>Retail store interior design plays a crucial role in<br>attracting customers, enhancing their shopping <br>experience, and ultimately driving sales. The<br>design of a retail space should be strategic,<br>reflecting the brand’s identity, and tailored to the<br>target customer’s preferences and behavior.</p>
+			<img src="images/Retail-store.JPG" alt="House Image">
+		</div>
+	</div>
+</body>
+</html>
+</head>
+<body>
+
+</body>
+</html>
